@@ -388,12 +388,18 @@ img {
 	 }
 
 	 .team-social-link:hover .team-social-icon,
-	 .team-social-link:hover .team-social-icon {
+	 .team-social-link:focus .team-social-icon {
 		 fill: #FFFFFF;
 	 }
 
+
 	 /*---------------Постоянные клиенты---------------*/
+
+
+
 	 .regular-customers {
+		padding-top: 94px;
+		padding-bottom: 94px;
 
 	 }
 
@@ -413,9 +419,24 @@ img {
 
 	 }
 	 .customers-items {
-		
+		margin-right: 30px;
 
 	 }
+
+	 .customers-link:hover,
+	 .customers-link:focus {
+		border-color: var(--accent-color);
+		
+	 }
+	 .customers-link:hover .customers-icon,
+	 .customers-link:focus .customers-icon {
+		 fill: var(--accent-color);
+	 }
+
+	 .customers-items:last-child {
+		 margin-right: 0;
+	 }
+
 	 .customers-link {
 		display: flex;
 		align-items: center;
@@ -427,18 +448,12 @@ img {
 	 color: var(--color-customers-item);
 	 border-color: var(--color-customers-item);
 		 
-
 	 }
+	 
 	 .customers-icon {
 		fill: var(--color-customers-item);
 		
-
 	 }
-
-	 
-
-
-
 
 
 	/*---------------Футер---------------*/
