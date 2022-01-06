@@ -35,10 +35,18 @@
         <div class="head-contact">
           <ul class="header-contact list">
             <li class="header-contact-item">
-              <a class="link no-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="link no-link" href="mailto:info@devstudio.com">
+					<svg class="header-contact-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>  
+					info@devstudio.com</a>
             </li>
             <li class="header-contact-item">
-              <a class="link no-link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="link no-link" href="tel:+380961111111">
+					<svg class="header-contact-icon" width="10" height="16">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>  
+					+38 096 111 11 11</a>
             </li>
           </ul>
         </div>
@@ -155,13 +163,18 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
+			<div class="footer-general">
+				<div class="footer-left">
         <a class="logo-footer no-link" href="./index.html"
-          ><span class="logo-web">Web</span>Studio</a
-        >
+          ><span class="logo-web">Web</span>Studio</a>
         <address class="address">
           <ul class="adress-list list">
             <li class="adress-list-item">
-              <a class="adress-map no-link" href="https://goo.gl/maps/NMQGQq8gnhBhWBcv5"
+              <a
+                class="adress-map no-link"
+                href="https://goo.gl/maps/NMQGQq8gnhBhWBcv5"
+                target="_blank"
+                rel="noopener norferrer"
                 >г. Киев, пр-т Леси Украинки,26</a
               >
             </li>
@@ -173,6 +186,41 @@
             </li>
           </ul>
         </address>
+				</div>
+				<div class="footer-central">
+					<p class="footer-central-title">Присоединяйтесь</p>
+					<ul class="footer-social-list list">
+						<li class="footer-social-item">
+						  <a href="" class="footer-social-link">
+							 <svg class="footer-social-icon" width="20" height="20">
+								<use href="./images/symbol-defs.svg#icon-instagram"></use>
+							 </svg>
+						  </a>
+						</li>
+						<li class="footer-social-item">
+						  <a href="" class="footer-social-link">
+							 <svg class="footer-social-icon" width="20" height="20">
+								<use href="./images/symbol-defs.svg#icon-twitter"></use>
+							 </svg>
+						  </a>
+						</li>
+						<li class="footer-social-item">
+						  <a href="" class="footer-social-link">
+							 <svg class="footer-social-icon" width="20" height="20">
+								<use href="./images/symbol-defs.svg#icon-facebook"></use>
+							 </svg>
+						  </a>
+						</li>
+						<li class="footer-social-item">
+						  <a href="" class="footer-social-link">
+							 <svg class="footer-social-icon" width="20" height="20">
+								<use href="./images/symbol-defs.svg#icon-linkedin"></use>
+							 </svg>
+						  </a>
+						</li>
+					 </ul>
+				</div>
+			</div>
       </div>
     </footer>
   </body>
